@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: aliceblue;
+}
+
+#main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+  margin: auto;
+}
+
+#result {
+  margin-bottom: 10em;
+}
+
+#wiki-link {
+  color: black;
+  text-decoration: none;
+}
+
+#wiki-link:hover {
+  text-decoration: underline;
+}
